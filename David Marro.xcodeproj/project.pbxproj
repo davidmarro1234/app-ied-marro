@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B948F852292EF7E0016D44A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B948F832292EF4F0016D44A /* MainTabBarController.swift */; };
+		1B948F872292F30D0016D44A /* UIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B948F862292F30D0016D44A /* UIUtility.swift */; };
 		231129162252644C00D0546A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231129152252644C00D0546A /* LoginController.swift */; };
 		234343FF22806F170091AC03 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234343FE22806F170091AC03 /* NetworkUtility.swift */; };
 		23434401228071D40091AC03 /* dateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23434400228071D40091AC03 /* dateUtility.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B948F832292EF4F0016D44A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = "View Controllers/MainTabBarController.swift"; sourceTree = SOURCE_ROOT; };
+		1B948F862292F30D0016D44A /* UIUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIUtility.swift; path = Utilities/UIUtility.swift; sourceTree = SOURCE_ROOT; };
 		231129152252644C00D0546A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		234343FE22806F170091AC03 /* NetworkUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
 		23434400228071D40091AC03 /* dateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateUtility.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 				231129152252644C00D0546A /* LoginController.swift */,
 				23F569FE225B9DDA00666905 /* HomeController.swift */,
 				23434402228087AF0091AC03 /* DettaglioEventoController.swift */,
+				1B948F832292EF4F0016D44A /* MainTabBarController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				234343FE22806F170091AC03 /* NetworkUtility.swift */,
 				23434400228071D40091AC03 /* dateUtility.swift */,
 				23F569F6225B854D00666905 /* LoginUtility.swift */,
+				1B948F862292F30D0016D44A /* UIUtility.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 				23434403228087AF0091AC03 /* DettaglioEventoController.swift in Sources */,
 				23434401228071D40091AC03 /* dateUtility.swift in Sources */,
 				23F569FB225B911800666905 /* Evento.swift in Sources */,
+				1B948F872292F30D0016D44A /* UIUtility.swift in Sources */,
 				23F569F5225B847600666905 /* Utente.swift in Sources */,
 				23E0EECD22524D25004C4C45 /* AppDelegate.swift in Sources */,
 				23BE33D42289A6CF00829559 /* CellOggettoAcquistabileCollectionViewCell.swift in Sources */,
@@ -218,6 +225,7 @@
 				23F569FF225B9DDA00666905 /* HomeController.swift in Sources */,
 				231129162252644C00D0546A /* LoginController.swift in Sources */,
 				23BE33D22289A6CF00829559 /* OggettoAcquistabile.swift in Sources */,
+				1B948F852292EF7E0016D44A /* MainTabBarController.swift in Sources */,
 				23F569FD225B9AD400666905 /* CellEvento.swift in Sources */,
 				234343FF22806F170091AC03 /* NetworkUtility.swift in Sources */,
 				23F569F9225B86F000666905 /* SplashController.swift in Sources */,
